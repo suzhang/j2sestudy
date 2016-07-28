@@ -1,4 +1,4 @@
-package com.codestorm.j2sestudy.java.lang;
+package com.codestorm.j2sestudy.java.util;
 
 import java.util.Calendar;
 import java.util.Date;
