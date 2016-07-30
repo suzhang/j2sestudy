@@ -16,6 +16,6 @@ public class ListTest {
 		for (String string : list) {
 			System.out.println(string);
 		}
-
+		
 	}
 }
