@@ -15,11 +15,14 @@ public class RandomTest {
 		// [0,23)
 		System.out.println(new Random().nextInt(23));
 
+		// within long range
+		System.out.println(new Random().nextLong());
+
 		// [0.0,1.0)
 		System.out.println(new Random().nextDouble());
 
 		// [0.0,1.0)
-		System.out.println(new Random().nextDouble());
+		System.out.println(new Random().nextFloat());
 
 		// generate true or false with equal probability
 		System.out.println(new Random().nextBoolean());

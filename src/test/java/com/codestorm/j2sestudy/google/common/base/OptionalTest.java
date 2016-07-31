@@ -19,7 +19,7 @@ public class OptionalTest {
 
 	@Test
 	public void test2() {
-		Integer num1 = null;
+		Integer num1 = null;	
 		System.out.println(Optional.fromNullable(num1).or(123));
 
 		String str1 = null;
