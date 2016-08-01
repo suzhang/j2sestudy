@@ -33,14 +33,31 @@ public class StringTest {
 	@Test
 	public void test() {
 
-		String str = new String("Sddd");
+		String str1 = new String();
 
-		String str2 = new String(new char[] { 'a', 'b', 'c', 'd' });
-		System.out.println(str.length());
+		String str2 = new String("Sddd");
 
-		System.out.println(str.toUpperCase());
+		String str3 = new String(new char[] { 'a', 'b', 'c', 'd' });
 
-		String str3 = "22";
+		String str4 = "";
+		
+		
+		System.out.println(str2.length());
+
+		System.out.println(str2.toUpperCase());
+
+		System.out.println(str2.toLowerCase());
+
+		System.out.println(str2.substring(2));
+
+		System.out.println(str2.substring(0, 1));
+
+		System.out.println(str2.trim());
+		
+		System.out.println(str2.lastIndexOf("ddd"));
+		
+		System.out.println(str2.indexOf("dd"));
+
 		changeString(str3);
 		System.out.println(str3);
 	}

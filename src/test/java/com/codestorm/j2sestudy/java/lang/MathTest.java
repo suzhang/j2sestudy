@@ -26,8 +26,13 @@ public class MathTest {
 
 		// 向下取整
 		System.out.println(Math.floor(12.9));
-		
+
 		System.out.println(Math.random());
 
+	}
+
+	@Test
+	public void test2() {
+		System.out.println(0.4 * 0.3);
 	}
 }
