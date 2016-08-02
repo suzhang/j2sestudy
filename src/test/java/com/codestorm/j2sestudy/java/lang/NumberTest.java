@@ -28,8 +28,9 @@ public class NumberTest {
 	@Test
 	public void test3() {
 		BigInteger big = new BigInteger("323222");
-
+		
 		System.out.println(big);
+		
 		
 	}
 }

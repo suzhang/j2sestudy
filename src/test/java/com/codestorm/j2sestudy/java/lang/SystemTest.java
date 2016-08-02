@@ -21,6 +21,7 @@ public class SystemTest {
 		System.out.println(System.getProperty("file.separator"));
 
 		System.out.println(System.getProperty("file.encoding"));
+		
 	}
 
 }

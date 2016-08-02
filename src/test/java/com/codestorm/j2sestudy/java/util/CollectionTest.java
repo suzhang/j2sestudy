@@ -1,7 +1,6 @@
 package com.codestorm.j2sestudy.java.util;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -28,7 +27,7 @@ public class CollectionTest {
 	}
 
 	@Test
-	public void testOthers() {
+	public void testStack() {
 		Stack<String> stack = new Stack<String>();
 		stack.push("A");
 		stack.push("b");
@@ -37,7 +36,8 @@ public class CollectionTest {
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
-		stack.isEmpty();
+		System.out.println(stack.isEmpty());
+		System.out.println(stack.empty());
 		// EmptyStackException
 		System.out.println(stack.pop());
 	}
@@ -80,10 +80,10 @@ public class CollectionTest {
 				return 0;
 			}
 		}
-		
+
 		@Override
 		public String toString() {
-			return ""+this.propery;
+			return "" + this.propery;
 		}
 
 	}

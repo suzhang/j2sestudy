@@ -21,13 +21,6 @@ public class StringTest {
 	 */
 	@Test
 	public void test1() {
-		String.valueOf(123);
-
-		String.valueOf('1');
-
-		String.valueOf(new char[] { 'a', 'b', 'c' });
-
-		String.valueOf(12.3);
 	}
 
 	@Test
@@ -40,6 +33,14 @@ public class StringTest {
 		String str3 = new String(new char[] { 'a', 'b', 'c', 'd' });
 
 		String str4 = "";
+		
+		String.valueOf(123);
+
+		String.valueOf('1');
+
+		String.valueOf(new char[] { 'a', 'b', 'c' });
+
+		String.valueOf(12.3);
 		
 		
 		System.out.println(str2.length());
@@ -57,6 +58,8 @@ public class StringTest {
 		System.out.println(str2.lastIndexOf("ddd"));
 		
 		System.out.println(str2.indexOf("dd"));
+		
+		System.out.println(str2.charAt(2));
 
 		changeString(str3);
 		System.out.println(str3);
