@@ -2,6 +2,12 @@ package com.codestorm.j2sestudy.java.lang;
 
 import org.junit.Test;
 
+/**
+ * String 类使用
+ * 
+ * @author zhangsu
+ * @date 2016年8月3日
+ */
 public class StringTest {
 
 	{
@@ -21,6 +27,15 @@ public class StringTest {
 	 */
 	@Test
 	public void test1() {
+
+		String str1 = new String();
+
+		System.out.println("".equals(str1));
+
+		String str2 = new String("");
+
+		String str3 = "";
+
 	}
 
 	@Test
@@ -33,7 +48,7 @@ public class StringTest {
 		String str3 = new String(new char[] { 'a', 'b', 'c', 'd' });
 
 		String str4 = "";
-		
+
 		String.valueOf(123);
 
 		String.valueOf('1');
@@ -41,8 +56,7 @@ public class StringTest {
 		String.valueOf(new char[] { 'a', 'b', 'c' });
 
 		String.valueOf(12.3);
-		
-		
+
 		System.out.println(str2.length());
 
 		System.out.println(str2.toUpperCase());
@@ -54,11 +68,11 @@ public class StringTest {
 		System.out.println(str2.substring(0, 1));
 
 		System.out.println(str2.trim());
-		
+
 		System.out.println(str2.lastIndexOf("ddd"));
-		
+
 		System.out.println(str2.indexOf("dd"));
-		
+
 		System.out.println(str2.charAt(2));
 
 		changeString(str3);

@@ -22,6 +22,12 @@ public class SystemTest {
 
 		System.out.println(System.getProperty("file.encoding"));
 		
+		char[] ch=new char[10];
+		
+		System.arraycopy(new char[]{'a','b','c','d'}, 1,  ch, 0,2);
+		
+		System.out.println(ch);
+		
 	}
 
 }
