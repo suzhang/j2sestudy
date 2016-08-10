@@ -1,4 +1,4 @@
-package com.codestorm.j2sestudy.apache.commons.lang3;
+package com.codestorm.j2sestudy.org.apache.commons.lang3;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.SystemUtils;
