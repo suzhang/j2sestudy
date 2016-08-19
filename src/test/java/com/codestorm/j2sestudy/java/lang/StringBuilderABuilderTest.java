@@ -53,4 +53,21 @@ public class StringBuilderABuilderTest {
 		}
 
 	}
+
+	@Test
+	public void test5() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("OISU");
+
+		builder.insert(2, "nima");
+		System.out.println(builder);
+
+		// 在最前插入
+		builder.insert(0, "nima");
+		System.out.println(builder);
+
+		// 在最后插入
+		builder.insert(builder.length(), "nima");
+		System.out.println(builder);
+	}
 }

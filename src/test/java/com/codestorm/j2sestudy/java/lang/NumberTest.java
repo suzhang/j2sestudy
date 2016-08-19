@@ -33,4 +33,15 @@ public class NumberTest {
 		
 		
 	}
+	
+	@Test
+	public void test4(){
+		int i=Integer.parseInt("-FF", 16);
+		System.out.println(i);
+		
+		int reversedNum=Integer.reverse(43123);
+		
+		System.out.println(reversedNum);
+		
+	}
 }
